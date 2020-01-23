@@ -1,5 +1,5 @@
 .testimonial {
-  background-image: url("http://localhost:3000/images/testimonial-bg.jpg");
+  background-image: url("./images/testimonial-bg.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
