@@ -1,0 +1,42 @@
+.navbar-default {
+  background-color: rgba(59, 59, 59, 0.7);
+  border-color: #444 !important;
+  z-index: 110;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.navbar-default .Nlink {
+  color: rgba(255, 255, 255, 0.555) !important;
+  font-family: "Raleway", sans-serif;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  text-align: center;
+}
+
+.navbar-default .Nlink:hover {
+  color: #129cf3 !important;
+}
+.navbar-default .Nlink:focus {
+  color: #b5b5b5 !important;
+}
+
+.navbar-default .searchBar {
+  margin: 0 auto;
+}
+
+.navbar-brand img {
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+@media all and (max-width: 991px) {
+  .searchBar {
+    display: none;
+  }
+}
