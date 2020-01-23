@@ -35,10 +35,7 @@ class Header extends Component {
             fixed="top"
           >
             <Navbar.Brand className="navbar-brand" href="#home">
-              <img
-                src="http://localhost:3000/images/logo-small.png"
-                alt="home"
-              />
+              <img src="./images/logo-small.png" alt="home" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

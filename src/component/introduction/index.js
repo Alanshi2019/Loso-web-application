@@ -21,7 +21,7 @@ class Introduction extends Component {
               <Row>
                 <Col md={12}>
                   <div className="logo text-center">
-                    <Image src="http://localhost:3000/images/logo.png" />
+                    <Image src="./images/logo.png" />
                   </div>
                 </Col>
               </Row>
@@ -54,7 +54,7 @@ class Introduction extends Component {
                 </Col>
                 <Col md={{ span: 3, offset: 1 }}>
                   <div className="header-iphone">
-                    <Image src="http://localhost:3000/images/iphone-header.png" />
+                    <Image src="./images/iphone-header.png" />
                   </div>
                 </Col>
               </Row>

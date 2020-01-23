@@ -14,7 +14,7 @@ class Testimonials extends Component {
                     <Carousel.Item>
                       <Image
                         className="d-block"
-                        src="http://localhost:3000/images/client-01.jpg"
+                        src="./images/client-01.jpg"
                         alt="Second slide"
                       />
 
@@ -34,7 +34,7 @@ class Testimonials extends Component {
                     <Carousel.Item>
                       <Image
                         className="d-block"
-                        src="http://localhost:3000/images/client-02.jpg"
+                        src="./images/client-02.jpg"
                         alt="Second slide"
                       />
 
@@ -54,7 +54,7 @@ class Testimonials extends Component {
                     <Carousel.Item>
                       <Image
                         className="d-block"
-                        src="http://localhost:3000/images/client-03.jpg"
+                        src="./images/client-03.jpg"
                         alt="Third slide"
                       />
 

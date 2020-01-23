@@ -67,10 +67,7 @@ class Features extends Component {
                 </Col>
                 <Col lg={4} md={12}>
                   <div className="feature-iphone">
-                    <img
-                      src="http://localhost:3000/images/iphone-02.png"
-                      alt="iphone"
-                    />
+                    <img src="./images/iphone-02.png" alt="iphone" />
                   </div>
                 </Col>
                 <Col lg={4} md={12}>

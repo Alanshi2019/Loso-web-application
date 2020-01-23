@@ -26,7 +26,7 @@ class Screens extends Component {
               <Carousel.Item>
                 <img
                   className="d-block"
-                  src="http://localhost:3000/images/screen-01.png"
+                  src="./images/screen-01.png"
                   width="60"
                   height="60"
                   alt="First slide"
@@ -35,7 +35,7 @@ class Screens extends Component {
               <Carousel.Item>
                 <img
                   className="d-block"
-                  src="http://localhost:3000/images/screen-02.png"
+                  src="./images/screen-02.png"
                   width="60"
                   height="60"
                   alt="Second slide"
@@ -44,7 +44,7 @@ class Screens extends Component {
               <Carousel.Item>
                 <img
                   className="d-block"
-                  src="http://localhost:3000/images/screen-04.png"
+                  src="./images/screen-04.png"
                   width="60"
                   height="60"
                   alt="Third slide"

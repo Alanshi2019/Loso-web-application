@@ -35,10 +35,7 @@ class Aboutus extends Component {
               >
                 {props => (
                   <div className="about-iphone" style={props}>
-                    <Image
-                      src="http://localhost:3000/images/about-iphone.png"
-                      alt="iphone"
-                    />
+                    <Image src="./images/about-iphone.png" alt="iphone" />
                   </div>
                 )}
               </Spring>

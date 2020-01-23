@@ -28,7 +28,7 @@ class Download extends Component {
             <Row>
               <Col md={{ span: 8, offset: 2 }}>
                 <img
-                  src="http://localhost:3000/images/download-screen.png"
+                  src="./images/download-screen.png"
                   alt="download screen"
                   fluid
                 />
