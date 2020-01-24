@@ -5,6 +5,13 @@ import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
 class Aboutus extends Component {
+  handleBackToTop() {
+    window.scrollTo({
+      left: 0,
+      top: 0,
+      behavior: "smooth"
+    });
+  }
   render() {
     return (
       <Fragment>
@@ -21,7 +28,7 @@ class Aboutus extends Component {
             </Row>
             <Row>
               <Col md={12}>
-                <div className="scroll-top">
+                <div className="scroll-top" onClick={this.handleBackToTop}>
                   <a href="#HOME" id="scroll-to-top">
                     <FontAwesomeIcon className="FooterIcon" icon={faAngleUp} />
                   </a>

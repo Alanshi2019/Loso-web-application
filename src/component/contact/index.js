@@ -12,7 +12,7 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <section className="contact-us" id="CONTACT">
+        <section className="contact-us" id="Contact">
           <Container>
             <Row>
               <Col md={{ span: 10, offset: 1 }}>

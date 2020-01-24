@@ -14,7 +14,7 @@ class Features extends Component {
   render() {
     return (
       <Fragment>
-        <section className="features">
+        <section className="features" id="Features">
           <Container>
             <Row>
               <Col md={{ span: 10, offset: 1 }}>

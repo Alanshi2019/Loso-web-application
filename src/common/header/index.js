@@ -11,6 +11,7 @@ class Header extends Component {
   }
   componentDidMount() {
     window.addEventListener("scroll", () => {
+      // console.log(window.scrollY);
       const isTop = window.scrollY < 100;
       if (!isTop && !this.state.show) {
         this.setState({ show: true });
@@ -24,6 +25,14 @@ class Header extends Component {
   componentWillUnmount() {
     window.removeEventListener("scroll");
   }
+  scrollToAnchor = anchorName => {
+    if (anchorName) {
+      let anchorElement = document.getElementById(anchorName);
+      if (anchorElement) {
+        anchorElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  };
   render() {
     const content = (
       <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
@@ -40,22 +49,60 @@ class Header extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mr-auto">
-                <Nav.Link className="Nlink" href="#home">
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("Top");
+                  }}
+                >
                   Home
                 </Nav.Link>
-                <Nav.Link className="Nlink" href="#link">
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("About");
+                  }}
+                >
                   ABOUT
                 </Nav.Link>
-                <Nav.Link className="Nlink" href="#link">
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("Test");
+                  }}
+                >
+                  TESTIMONIAL
+                </Nav.Link>
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("Features");
+                  }}
+                >
                   FEATURES
                 </Nav.Link>
-                <Nav.Link className="Nlink" href="#link">
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("Screens");
+                  }}
+                >
                   SCREENS
                 </Nav.Link>
-                <Nav.Link className="Nlink" href="#link">
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("Download");
+                  }}
+                >
                   DWONLOAD
                 </Nav.Link>
-                <Nav.Link className="Nlink" href="#link">
+                <Nav.Link
+                  className="Nlink"
+                  onClick={() => {
+                    this.scrollToAnchor("Contact");
+                  }}
+                >
                   CONTACT
                 </Nav.Link>
               </Nav>

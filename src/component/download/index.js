@@ -8,7 +8,7 @@ class Download extends Component {
   render() {
     return (
       <Fragment>
-        <section className="download-now" id="DOWNLOAD">
+        <section className="download-now" id="Download">
           <Container>
             <Row>
               <Col md={{ span: 10, offset: 1 }}>

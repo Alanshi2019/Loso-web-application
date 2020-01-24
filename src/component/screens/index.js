@@ -6,7 +6,7 @@ class Screens extends Component {
   render() {
     return (
       <Fragment>
-        <section className="screens">
+        <section className="screens" id="Screens">
           <Container>
             <Row>
               <Col md={{ span: 10, offset: 1 }}>

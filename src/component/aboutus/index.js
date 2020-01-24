@@ -115,7 +115,7 @@ class Aboutus extends Component {
 
     return (
       <Fragment>
-        <Container className="screens">
+        <Container className="screens" id="About">
           <Row>
             <Col md={{ span: 10, offset: 1 }}>
               <div className="section-title">
